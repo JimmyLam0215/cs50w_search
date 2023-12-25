@@ -71,14 +71,6 @@
     font-size: 12px;
 }
 
-#imagesMenu2 {
-    padding:10px;
-    position: absolute;
-    top: 8px;
-    right: 105px;
-    font-size: 12px;
-}
-
 #advancedMenu {
     padding:10px;
     position: absolute;
@@ -86,11 +78,20 @@
     right: 90px;
     font-size: 12px;
 }
+
 #mainMenu {
     padding: 10px;
     position: absolute;
     top: 8px;
     right: 195px;
+    font-size: 12px;
+}
+
+#mainMenu2 {
+    padding:10px;
+    position: absolute;
+    top: 8px;
+    right: 90px;
     font-size: 12px;
 }
 
