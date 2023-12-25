@@ -1,0 +1,51 @@
+#img1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 175px;
+    height: 75px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 30px;
+    background: url(images.png) no-repeat left;
+    background-size: 25px;
+}
+
+.div{
+    text-align: center;
+}
+
+#submit {
+    margin-top: 10px;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+#lucky {
+    margin-left: 10px;
+    height: 30px;
+    border: 0px;
+}
+
+.menuBar {
+    text-align: right;
+}
+
+#imagesMenu {
+    padding: 10px;
+}
+
+#mainMenu {
+    padding: 10px;
+}
+  
+
+
