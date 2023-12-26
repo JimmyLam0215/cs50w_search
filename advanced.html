@@ -6,6 +6,7 @@
     </head>
     <body>
         <div>
+            <img id="google" src="images/Google_logo.svg.png" alt="This is Google logo">
             <a id="mainMenu2" href="index.html">Back to Google Search</a>
         </div>
         <div>
@@ -15,17 +16,44 @@
             <img id="cat" src="images/cat.jpg" alt="This is CS50"> 
         </div>
         <div>
-            <img id="img1" src="images/google_white.gif" alt="This is Google">
+            <a id="advS">Advanced Search</a>
         </div>
-            <form action="https://google.com/search">
-                <div class="div">
-                    <input id="search" type="text" name="q">
-                </div>
-                <div class="div">
-                    <input id="submit" type="submit" value="Google Search">
-                    <input id="lucky" type="submit" value="I'm feeling lucky">
-                </div>
-            </form>
-        
+        <div>
+            <hr id="line1">
+        </div>
+        <div>
+            <a class="head">Find pages with...</a>
+        </div>
+        <form action="https://google.com/search">
+        <div>
+            <a class="subhead" id="sh1">all these words:</a>
+            <input class="adv" id="advsearch1" type="text" name="as_q">
+        </div>
+        <div>
+            <a class="subhead" id="sh2">this exact word or phase: </a>
+            <input class="adv" id="advsearch2" type="text" name="as_epq">
+        </div>
+        <div>
+            <a class="subhead" id="sh3">any of these words:</a>
+            <input class="adv" id="advsearch3" type="text" name="as_oq">
+        </div>
+        <div>
+            <a class="subhead" id="sh4">none of these words:</a>
+            <input class="adv" id="advsearch4" type="text" name="as_eq">
+        </div>
+        <div>
+            <a class="subhead" id="sh5">numbers ranging from:</a>
+            <input class="range" id="advsearch5" type="text" name="as_nlo">
+            <a id="to">to</a>
+            <input class="range" id="advsearch6" type="text" name="as_nhi">
+        </div>
+        <div class="div3">
+            <input id="submit3" type="submit" value="Advanced Search" name="btnK">
+        </div>
+    </form>
+        <div>
+            <hr id="line2">
+        </div>
+            
     </body>
 </html>

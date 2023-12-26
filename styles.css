@@ -9,6 +9,10 @@
     margin-right: auto;
 }
 
+body {
+    font-family: Arial, sans-serif;
+ }
+
 #img2 {
     margin-top: 53px;
     margin-bottom: 40px;
@@ -119,4 +123,122 @@
     position: absolute;
 }
 
+#google {
+    width: 65px;
+    height: 23px;
+    position: absolute;
+    top:18px;
+    left: 18px;
+}
 
+#advS {
+    color: rgb(221, 75, 57);
+    position: absolute;
+    top: 78px;
+    left: 45px;
+    font-size: 20px;
+}
+
+#line1 {
+    margin-top: 130px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+    
+}
+
+#line2 {
+    margin-top: 265px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+    margin-left: 25px;
+}
+
+.head {
+    font-size: 17px;
+    position: absolute;
+    top: 174px;
+    left: 45px;
+}
+
+.subhead {
+    font-size: 14.5px;
+    position: absolute;
+    left: 45px;
+}
+
+#sh1 {
+    top: 215px;
+}
+
+#sh2 {
+    top: 255px;
+}
+
+#sh3 {
+    top: 295px;
+}
+
+#sh4 {
+    top: 335px;
+}
+
+#sh5 {
+    top: 375px;
+}
+
+.adv {
+    position: absolute;
+    text-align: left;
+    left: 200px;
+    width: 471.73px;
+    height: 28.33px;
+}
+
+.range {
+    position: absolute;
+    top: 376px;
+    width: 210.53px;
+    height: 28.33px;
+}
+
+#advsearch1 {
+    top: 216px;
+}
+
+#advsearch2 {
+    top: 256px;
+}
+
+#advsearch3 {
+    top: 296px;
+}
+
+#advsearch4 {
+    top: 336px;
+}
+
+#advsearch5 {
+    left: 200px;
+}
+
+#advsearch6 {
+    left: 413px;
+}
+
+#to {
+    position: absolute;
+    top: 378px;
+    left: 385px;
+    font-size: 13px;
+}
+
+#submit3 {
+    position: absolute;
+    top: 420px;
+    right: 55px;
+    background-color: rgb(77, 144, 254);
+    color: white;
+    border:0px;
+    font-size: 12px;
+    padding: 7px;
+}
