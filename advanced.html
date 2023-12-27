@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Advanced Search</title>
+        <title>Google Advanced Search</title>
+        <link id="icon" rel="icon" href="images/gsa_android_144dp.png" type="image/icon type">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -23,29 +24,40 @@
         </div>
         <div>
             <a class="head">Find pages with...</a>
+            <a class="reminder_head">To do this in the search box.</a> 
         </div>
         <form action="https://google.com/search">
         <div>
             <a class="subhead" id="sh1">all these words:</a>
             <input class="adv" id="advsearch1" type="text" name="as_q">
+            <a class="reminder_subhead" id="rsh1">Type the important words: </a>
+            <a class="reminder" id="r1">tri-colour rat terrier</a> 
         </div>
         <div>
             <a class="subhead" id="sh2">this exact word or phase: </a>
             <input class="adv" id="advsearch2" type="text" name="as_epq">
+            <a class="reminder_subhead" id="rsh2">Put exact words in quotes: </a>
+            <a class="reminder" id="r2">"rat terrier"</a> 
         </div>
         <div>
             <a class="subhead" id="sh3">any of these words:</a>
             <input class="adv" id="advsearch3" type="text" name="as_oq">
+            <a class="reminder_subhead" id="rsh3">Type OR between all the words you want: </a>
+            <a class="reminder" id="r3">miniature OR standard</a> 
         </div>
         <div>
             <a class="subhead" id="sh4">none of these words:</a>
             <input class="adv" id="advsearch4" type="text" name="as_eq">
+            <a class="reminder_subhead" id="rsh4">Put a minus sign just before words that you don't want: </a>
+            <a class="reminder" id="r4">-rodent, -"Jack Russell"</a> 
         </div>
         <div>
             <a class="subhead" id="sh5">numbers ranging from:</a>
             <input class="range" id="advsearch5" type="text" name="as_nlo">
             <a id="to">to</a>
             <input class="range" id="advsearch6" type="text" name="as_nhi">
+            <a class="reminder_subhead" id="rsh5">Put two full stops between the numbers and add a unit of measurement: </a>
+            <a class="reminder" id="r5">10..35 kg, £300..£500, 2010..2011</a> 
         </div>
         <div class="div3">
             <input id="submit3" type="submit" value="Advanced Search" name="btnK">

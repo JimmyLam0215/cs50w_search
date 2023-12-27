@@ -16,8 +16,8 @@ body {
 #img2 {
     margin-top: 53px;
     margin-bottom: 40px;
-    width: 243px;
-    height: 83px;
+    width: 280px;
+    height: 95px;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -25,14 +25,18 @@ body {
 }
 
 #search {
-    width: 500px;
-    height: 30px;
+    width: 565px;
+    height: 34px;
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
     padding-left: 30px;
     background: url(images/icon_search.svg) no-repeat left;
     background-size: 18px;
     background-position-x: 10px;
     background-position-y: 7px ;
+    line-height: 22px;
+
+    margin-bottom: 8px;
 }
 
 .div{
@@ -50,7 +54,7 @@ body {
 #submit2 {
     margin-top: 25px;
     border: 0px;
-    width: 100px;
+    width: 110px;
     height: 30px;
     align-items: center;
     background-color: rgb(248, 248, 248);
@@ -147,7 +151,7 @@ body {
 }
 
 #line2 {
-    margin-top: 265px;
+    margin-top: 335px;
     border: 0;
     border-top: 1px solid #c9c7c7;
     margin-left: 25px;
@@ -158,12 +162,14 @@ body {
     position: absolute;
     top: 174px;
     left: 45px;
+    color: #333333;
 }
 
 .subhead {
     font-size: 14.5px;
     position: absolute;
     left: 45px;
+    color: #222222;
 }
 
 #sh1 {
@@ -189,15 +195,15 @@ body {
 .adv {
     position: absolute;
     text-align: left;
-    left: 200px;
-    width: 471.73px;
+    left: 230px;
+    width: 571.33px;
     height: 28.33px;
 }
 
 .range {
     position: absolute;
     top: 376px;
-    width: 210.53px;
+    width: 260.33px;
     height: 28.33px;
 }
 
@@ -218,27 +224,116 @@ body {
 }
 
 #advsearch5 {
-    left: 200px;
+    left: 230px;
 }
 
 #advsearch6 {
-    left: 413px;
+    left: 542px;
 }
 
 #to {
     position: absolute;
-    top: 378px;
-    left: 385px;
+    top: 388px;
+    left: 515px;
     font-size: 13px;
 }
 
 #submit3 {
     position: absolute;
     top: 420px;
-    right: 55px;
+    right: 470px;
     background-color: rgb(77, 144, 254);
     color: white;
-    border:0px;
+    border: 0px;
     font-size: 12px;
     padding: 7px;
+    border-radius: 3px;
+}
+
+.img {
+    color: rgb(66,133, 244);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 720px;
+    top: 125px;
+    text-align: left;
+    display: flex;
+}
+
+.reminder_head {
+    font: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    position: absolute;
+    top: 174px;
+    right: 250px;
+    font-weight: bold;
+}
+
+.reminder_subhead {
+    color:#555555;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: absolute;
+    right: 330px;
+}
+
+#rsh1 {
+    top: 225px;
+    right: 330px;
+}
+
+#rsh2 {
+    top: 265px;
+    right: 325px;
+}
+
+#rsh3 {
+    top: 305px;
+    right: 252px;
+}
+
+#rsh4 {
+    top: 340px;
+    right: 188px;
+}
+
+#rsh5 {
+    top: 380px;
+    right: 105px;
+}
+
+.reminder {
+    columns: #666666;
+    font-size: 11px;
+    font-family: monospace;
+    position: absolute;
+    opacity: .75;
+}
+
+#r1 {
+    right: 194px;
+    top: 225px;
+}
+
+#r2 {
+    right: 245px;
+    top: 265px;
+}
+
+#r3 {
+    right: 120px;
+    top: 305px;
+}
+
+#r4 {
+    right: 310px;
+    top: 355px;
+}
+
+#r5 {
+    right: 256px;
+    top: 395px;
 }
