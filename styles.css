@@ -144,17 +144,18 @@ body {
 }
 
 #line1 {
-    margin-top: 130px;
+    position: relative;
+    top: 130px;
     border: 0;
     border-top: 1px solid #c9c7c7;
     
 }
 
 #line2 {
-    margin-top: 335px;
+    position: relative;
+    top: 450px;
     border: 0;
     border-top: 1px solid #c9c7c7;
-    margin-left: 25px;
 }
 
 .head {
@@ -239,9 +240,9 @@ body {
 }
 
 #submit3 {
-    position: absolute;
+    position: relative;
     top: 420px;
-    right: 470px;
+    right: -695px;
     background-color: rgb(77, 144, 254);
     color: white;
     border: 0px;
@@ -260,6 +261,17 @@ body {
     text-align: left;
     display: flex;
 }
+@media screen and (max-width: 1270px){
+    .reminder_head {
+        display: none;
+   }
+   .reminder_subhead {
+        display: none;
+   }
+   .reminder {
+        display: none;
+   }
+}
 
 .reminder_head {
     font: 13px;
@@ -270,7 +282,6 @@ body {
     right: 250px;
     font-weight: bold;
 }
-
 .reminder_subhead {
     color:#555555;
     font-size: 11px;
@@ -336,4 +347,25 @@ body {
 #r5 {
     right: 256px;
     top: 395px;
+}
+
+#images {
+    color: #4285f4;
+    text-align: center;
+    position: relative;
+    left: 544px;
+    top: -63px;
+    font-size: 16px/16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin: 45px;
+    padding:10%;
+}
+
+.container {
+    text-align: center;
+}
+
+.hr {
+    width: 100%;
 }
